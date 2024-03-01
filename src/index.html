@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 11</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section>
+      <form class="search-form">
+        <input
+          type="text"
+          name="search"
+          class="search-input"
+          placeholder="Search images..."
+        />
+        <button class="search-btn" type="submit" data-fetch>Search</button>
+      </form>
+      <span class="loader is-hidden"></span>
+      <div class="wrapper">
+        <ul class="gallery"></ul>
+        <button class="load-more search-btn">Load more</button>
+      </div>
+    </section>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
